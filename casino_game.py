@@ -1,6 +1,6 @@
 from random import choice
 from decouple import config
-from lose_conditions import calculate_winning
+from conditions import calculate_winning
 
 starting_amount = config('MY_MONEY', cast=int)
 number_list = list(range(1, 31))
