@@ -9,6 +9,5 @@ class Example:
 
 text1 = Example('Hello')
 text2 = Example('this')
-text3 = Example('is an example')
 
-print(text1, text2, text3)
+print(text1, text2)
