@@ -122,7 +122,8 @@ connection = create_connection('hw.db')
 # create_table(connection, sql_create_table_of_products)
 
 if connection is not None:
-    # add_products_from_list(connection, products_to_add)    # select_all_products(connection)
+    # add_products_from_list(connection, products_to_add)
+    select_all_products(connection)
     select_products_limits(connection)
     update_quantity(connection, (4, 2))
     update_price(connection, (98.3, 9))
